@@ -1,4 +1,4 @@
-package aula53.aula54;
+package aula54;
 
 public enum DiaSemana {
 
@@ -9,7 +9,8 @@ public enum DiaSemana {
     SABADO(6),
     DOMINGO(7);
 
-    private int valor;
+    private final int valor;
+
 
     DiaSemana(int valor) {
         this.valor = valor;

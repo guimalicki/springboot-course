@@ -1,4 +1,4 @@
-package aula53.aula54;
+package aula54;
 
 public class TesteEnum {
 
@@ -7,5 +7,7 @@ public class TesteEnum {
 
         //ToString Retorna o nome da ENUM e o getValor() o valor atribuido
         System.out.println(dia.toString() + " - " + dia.getValor());
+
+        Data data = new Data(1, 4, 2016, DiaSemana.SEXTA);
     }
 }
